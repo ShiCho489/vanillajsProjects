@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Passanger Counter App</title>
-    <link rel="stylesheet" href="count.css"></link>
-</head>
-<body>
-    
-</body>
-</html>
+let countEl = document.getElementById("count-el")
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+}
+
+// 1. Create a function, save(), which logs out the count when it's called
+
+function save() {
+    console.log(count)
+}
+
+save();
