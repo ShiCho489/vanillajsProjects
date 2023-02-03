@@ -1,0 +1,26 @@
+body {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20rem;
+}
+
+.container{}
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.image {
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.left{
+    transform: rotate(180deg)
+}
