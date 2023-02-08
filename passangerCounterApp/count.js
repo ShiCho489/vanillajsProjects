@@ -18,8 +18,10 @@ function save() {
     // NB: Make sure to not delete the existing content of the paragraph
     
     saveEl.innerText += countStr
+    countEl.textcontent = 0
+    count = 0
     
-    console.log(count);
+ 
 }
 
 save();
