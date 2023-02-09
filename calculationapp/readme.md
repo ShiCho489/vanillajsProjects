@@ -1,4 +1,4 @@
-A very basic calulation app getting familiar with simple javascript operations.
+A very basic calculation app getting familiar with simple javascript operations.
 
 add
 subtract
